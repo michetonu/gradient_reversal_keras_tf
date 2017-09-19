@@ -38,6 +38,6 @@ class GradientReversal(Layer):
         return input_shape
 
     def get_config(self):
-        config = {}
+        config = {'hp_lambda': self.hp_lambda}
         base_config = super(GradientReversal, self).get_config()
         return dict(list(base_config.items()) + list(config.items()))
