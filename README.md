@@ -1,4 +1,4 @@
-# gradient_inversion_keras_tf
+# Gradient Reversal Layer for Keras
 Keras implementation of a gradient inversion layer for the Tensorflow backend, following the paper [Domain-Adversarial Training of Neural Networks](http://jmlr.org/papers/volume17/15-239/15-239.pdf).
 Modified the Theano version by Pumpikano found [here](https://github.com/pumpikano/tf-dann), expanding on the work done by VanushVaswani found [here](https://github.com/fchollet/keras/pull/4031).
 
