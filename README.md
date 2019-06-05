@@ -13,5 +13,5 @@ dann_out = Dense(2)(dann_in)
 where `hp_lambda` is the constant which multiplies the flipped gradient.
 
 
-
+An example of a model where this is implemented (with full code) can be found here: https://github.com/michetonu/DA-RNN_manoeuver_anticipation
 
