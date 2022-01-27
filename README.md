@@ -2,9 +2,6 @@
 Keras implementation of a gradient inversion layer for the Tensorflow backend, following the paper [Domain-Adversarial Training of Neural Networks](http://jmlr.org/papers/volume17/15-239/15-239.pdf).
 Modified the Theano version by Pumpikano found [here](https://github.com/pumpikano/tf-dann), expanding on the work done by VanushVaswani found [here](https://github.com/fchollet/keras/pull/4031).
 
-NOTE: works only with Tensorflow < 2.0.0
-See here for alternative solutions with TF2 https://stackoverflow.com/questions/56841166/how-to-implement-gradient-reversal-layer-in-tf-2-0
-
 The layer can be placed in a Functional model such as:
 
 ```
@@ -18,3 +15,7 @@ where `hp_lambda` is the constant which multiplies the flipped gradient.
 
 An example of a model where this is implemented (with full code) can be found here: https://github.com/michetonu/DA-RNN_manoeuver_anticipation
 
+## Requirements
+
+Works only with Tensorflow < 2.0.0!
+See here for alternative solutions with TF2 https://stackoverflow.com/questions/56841166/how-to-implement-gradient-reversal-layer-in-tf-2-0
